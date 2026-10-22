@@ -1,7 +1,6 @@
 import { useState, type FormEvent } from 'react';
 import Container from '../ui/Container';
 import Icon from '../ui/Icon';
-import MakerSymbol from '../ui/MakerSymbol';
 
 interface InterestForm {
   name: string;
@@ -41,7 +40,6 @@ export default function Contact() {
           <p className="eyebrow eyebrow--light"><span className="eyebrow-line" /> Faça parte</p>
           <h2 id="contact-title">Vamos transformar sua <span>ideia em realidade?</span></h2>
           <p>Preencha seus dados e dê o primeiro passo para conhecer o universo MakerUSP.</p>
-          <div className="contact-section__deco" aria-hidden="true"><MakerSymbol /></div>
           <div className="contact-section__location"><Icon name="map-pin" size={18} /> Universidade de São Paulo · São Paulo, SP</div>
         </div>
         <div className="contact-card">

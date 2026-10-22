@@ -1,10 +1,5 @@
 import type { SVGProps } from 'react';
 
-/**
- * Símbolo geométrico MakerUSP redesenhado em SVG a partir da referência
- * institucional fornecida. Mantém a disposição e as cores originais,
- * sem o fundo cinza da imagem de referência.
- */
 export default function MakerSymbol(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
